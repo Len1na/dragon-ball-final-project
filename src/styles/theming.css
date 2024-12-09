@@ -10,10 +10,13 @@
      /* Espaciados*/
     --db-spacing-s: 8px;
     --db-spacing-md: 12px;
-    --db-spacing-md: 16px;
+    --db-spacing-lg: 16px;
 
      /* Radius */
     --db-rounded:5px;
+
+    /* Fonts */
+    --db-page-title-size:24px;
 }
 
 /* Fin de las Variables */
