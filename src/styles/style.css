@@ -1,7 +1,34 @@
-/* Resets */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.page__header-container{
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    padding: var(--db-spacing-s) var(--db-spacing-lg);
+    background-color: #fff;
+}
+
+.page-nav__list{
+    display: flex;
+    gap: var(--db-spacing-md);
+    align-items: center;
+}
+
+.page-nav__item{
+    text-decoration: none;
+    color: black;
+}
+
+.page-nav__item.page-nav__item--primary{
+    background-color: var(--db-color-primary,green);
+    padding: var(--db-spacing-s);
+    color: rgb(18, 18, 18);
+    border-radius: var(--db-rounded);
+    font-weight: 700;
+}
+
+body{
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--db-color-page-bg, blue
+    );
 }
