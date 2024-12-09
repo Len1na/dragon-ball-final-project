@@ -32,3 +32,17 @@ body{
     background-color: var(--db-color-page-bg, blue
     );
 }
+
+.home-title__container{
+    text-align: center;
+    margin: var(--db-spacing-lg) 0;
+}
+
+.page__title{
+    color: var(--db-color-primary);
+    font-size:var(--db-page-title-size) ;
+}
+
+.home__main-img{
+    width: 50vw;;
+}
