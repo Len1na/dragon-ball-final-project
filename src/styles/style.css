@@ -22,8 +22,9 @@
 .page-nav__item.page-nav__item--primary{
     background-color: var(--db-color-primary,green);
     padding: var(--db-spacing-s);
-    color: white;
+    color: rgb(18, 18, 18);
     border-radius: var(--db-rounded);
+    font-weight: 700;
 }
 
 body{
