@@ -1,27 +1,16 @@
-/* Resets */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-ul{
-    list-style: none;
-}
-
-/* Fin de los Resets */
 .page__header-container{
     display: flex;
     justify-content: space-between;
     min-height: 50px;
-    padding: 8px 16px;
+    padding: var(--db-spacing-s) var(--db-spacing-lg);
     background-color: #fff;
 }
 
 .page-nav__list{
     display: flex;
-    gap: 12px;
+    gap: var(--db-spacing-md);
     align-items: center;
 }
 
@@ -31,13 +20,14 @@ ul{
 }
 
 .page-nav__item.page-nav__item--primary{
-    background-color: #FBC02D;
-    padding: 0.5rem;
+    background-color: var(--db-color-primary,green);
+    padding: var(--db-spacing-s);
     color: white;
-    border-radius: 5px;
+    border-radius: var(--db-rounded);
 }
 
 body{
     font-family: Roboto, Helvetica, Arial, sans-serif;
-    background-color: #272B33;
+    background-color: var(--db-color-page-bg, blue
+    );
 }
