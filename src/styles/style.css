@@ -5,3 +5,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul{
+    list-style: none;
+}
+
+/* Fin de los Resets */
+.page__header-container{
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    padding: 8px 16px;
+    background-color: #fff;
+}
+
+.page-nav__list{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.page-nav__item{
+    text-decoration: none;
+    color: black;
+}
+
+.page-nav__item.page-nav__item--primary{
+    background-color: #FBC02D;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+}
+
+body{
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-color: #272B33;
+}
