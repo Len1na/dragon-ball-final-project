@@ -13,10 +13,15 @@
     --db-spacing-lg: 16px;
 
      /* Radius */
-    --db-rounded:5px;
+    --db-rounded-xs:6px;
+    --db-rounded-md:10px;
 
     /* Fonts */
     --db-page-title-size:24px;
+
+    /* Fonts */
+    --db-elevation-md:0 0 10px rgb(0, 0, 0.1);
+
 }
 
 /* Fin de las Variables */

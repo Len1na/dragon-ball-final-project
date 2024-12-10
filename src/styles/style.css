@@ -23,7 +23,7 @@
     background-color: var(--db-color-primary,green);
     padding: var(--db-spacing-s);
     color: rgb(18, 18, 18);
-    border-radius: var(--db-rounded);
+    border-radius: var(--db-rounded-md);
     font-weight: 700;
 }
 
@@ -45,4 +45,43 @@ body{
 
 .home__main-img{
     width: 50vw;
+}
+
+.character-card__container{
+    max-width: 200px;
+    border-radius: var(--db-rounded-md);
+    box-shadow: var(--db-elevation-md);
+    background-color: var(--db-color-secondary);
+}
+
+.character-card__header{
+    text-align: center;
+    background-image: url("../assets/imgs/character-card-bg.webp");
+    background-size: cover;
+    text-align: center;
+}
+
+.character-card__header-img{
+    max-width: 100px;
+    transform: scale(1.25);
+}
+
+.character-card__body{
+    color: #fff;
+    padding: var(--db-spacing-s);
+}
+
+.character-card__body > * {
+
+margin-bottom: var(--db-spacing-md);
+
+}
+
+.character__description-title{
+    font-size: 1.5rem;
+
+}
+
+.character__description-text--primary{
+    color: var(--db-color-primary);
 }
