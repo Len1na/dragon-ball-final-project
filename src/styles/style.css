@@ -48,7 +48,7 @@ body{
 }
 
 .character-card__container{
-    max-width: 200px;
+    width: 200px;
     border-radius: var(--db-rounded-md);
     box-shadow: var(--db-elevation-md);
     background-color: var(--db-color-secondary);
@@ -77,6 +77,12 @@ margin-bottom: var(--db-spacing-md);
 
 }
 
+.character-list__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--db-spacing-lg);
+    justify-content: center;
+}
 .character__description-title{
     font-size: 1.5rem;
 
